@@ -1,0 +1,152 @@
+@media only screen and (max-width: 991px) {
+    .cnt-ts .price{
+		font-size: 26px;
+		padding-bottom: 5px;
+		margin-bottom: 10px;
+		margin-top:15px;
+	}
+	.cnt-ts h2{
+		font-size: 18px;
+		margin-bottom:12px;
+	}
+	.head{
+		text-align:center;
+	}
+	.mdl-inf{
+		padding-top:20px;
+	}
+	.main-fltr .itm:last-child{
+		display:none;
+	}
+	.col-main{
+		-webkit-box-ordinal-group: 2;
+		-webkit-order: 1;
+		-ms-flex-order: 1;
+		order: 1;
+	}
+	.main-fltr{
+		margin-top: 30px;
+	}
+	.sidebar .itm img{
+		width:100%;
+		height:100%;
+	}
+	.wrp{
+		padding-bottom:30px;
+	}
+	.tp:after, .tp:before {
+		left: 50%;
+	}
+	body:after{
+		min-height: 500px;
+	}
+	.main-cnt{
+		min-height:150px;
+	}
+	.sidebar{
+		padding:15px;
+	}
+	.head{
+		padding-top:30px;
+		padding-bottom:30px;
+	}
+	#mobileBtn{
+		float:left;
+	}
+	#mobileBtn i{
+		margin:0px;
+	}
+	.dropdown-item{
+		padding: .65rem 1.5rem;
+		line-height: 22px;
+	}
+	.vue-back-to-top{
+		bottom: 15px!important;
+		right: 15px!important;
+	}
+}
+@media only screen and (min-width: 992px) {
+    .cnt-ts .price{
+		font-size: 38px;
+		padding-bottom: 16px;
+		margin-bottom: 17px;
+	}
+	.tp .row{
+		padding-left: 19px;
+		padding-right: 19px;
+	}
+	.head{
+		padding-top:38px;
+		padding-bottom:46px;
+	}
+	.sidebar{
+		padding:23px;
+	}
+	body:after{
+		min-height: 700px;
+	}
+	.tp .itm .ln{
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		width: 30px;
+		right: 0;
+		margin-right: -35px;
+		overflow: hidden;
+		border-radius: 2px;
+	}
+	.tp .itm .ln:after{
+		content: "";
+		-webkit-box-shadow: 7px 0px 5px 0px rgba(0,0,0,0.75);
+		-moz-box-shadow: 7px 0px 5px 0px rgba(0,0,0,0.75);
+		box-shadow: 3px 0px 8px 0px rgba(0, 0, 0, 0.12);
+		display: block;
+		height: 36px;
+		width: 20px;
+		border-radius: 20px;
+		margin-left: -20px;
+	}
+	.tp:after, .tp:before {
+		left: 120px;
+	}
+	.wrp{
+		padding-top:16px;
+		padding-bottom:40px;
+	}
+	.cnt-ts h2{
+		font-size: 22px;
+		margin-bottom:17px;
+	}
+	.mn-lg{
+		margin-top: -10px;
+		padding-left: 55px;
+	}
+	.mdl{
+		background:url('../images/mdl.png');
+		background-repeat:no-repeat;
+		background-position:center;
+		height:79px;
+		width:235px;
+	}
+	.head .text{
+		text-align:right;
+	}
+	.mdl-inf .col-lg-6{
+		padding-right:0px!important;
+	}
+	.mdl-inf{
+		padding-right:55px;
+	}
+	.main-fltr .itm:first-child:after{
+		content: "";
+		background: #f99d26;
+		width: 60px;
+		height: 60px;
+		position: absolute;
+		top: -30px;
+		right: -30px;
+		transform: rotate(-50deg);
+		-moz-transform: rotate(-50deg);
+		-webkit-transform: rotate(-50deg);
+	}
+}
